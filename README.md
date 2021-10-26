@@ -7,7 +7,7 @@ L’algorisme interpola les dades en coordenades radar (el, az, r) a una quadrí
 
 ### Estructura de carpetes:
 
-La carpeta RAW2GRID conté 3 carpetes:
+La carpeta RAW2GRID ha de contenir 3 carpetes:
 - PROG: conté els dos scripts necessaris per a la configuració i execució de l’algorisme (*raw2grid_settings.py* i *raw2grid.py*).
 - RAW: és la carpeta d’entrada on s’han de copiar els arxius RAW.
 - netCDF4: és la carpeta de sortida on el programari emmagatzema els productes netCDF4 finals.
