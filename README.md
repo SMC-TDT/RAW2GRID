@@ -22,15 +22,15 @@ La carpeta RAW2GRID ha de contenir 3 carpetes:
 
 ## INSTRUCCIONS D'ÚS
 
-1. Copieu els arxius RAW comprimits del període desitjat (XXXRAWYYYYMMDD.tgz) a la carpeta *./GRID2RAW/RAW/*.
+1. Copieu els arxius RAW comprimits del període desitjat (XXXRAWYYYYMMDD.tgz) a la carpeta *~/RAW2GRID/RAW/*.
 
-  `$ cp CDVRAW20210724.tgz ./GRID2RAW/RAW`
+  `$ cp CDVRAW20210724.tgz ~/RAW2GRID/RAW`
 
 2. Per a cada arxiu .tgz:
   
-    1. Descomprimiu l’arxiu en la carpeta *./GRID2RAW/RAW/*:
+    1. Descomprimiu l’arxiu en la carpeta *~/RAW2GRID/RAW/*:
     
-      `$ cd ./GRID2RAW/RAW`
+      `$ cd ~/RAW2GRID/RAW`
       
       `$ tar xzf CDVRAW20210724.tgz`
   
@@ -50,10 +50,10 @@ La carpeta RAW2GRID ha de contenir 3 carpetes:
 - CONFIGURACIÓ DE LA QUADRÍCULA
 - CONFIGURACIÓ DE L’ALGORISME (opcional)
 
-4. Aneu al directori *./GRID2RAW/PROG/* i executeu l’script principal:
+4. Aneu al directori *~/RAW2GRID/PROG/* i executeu l’script principal:
   
-  `$ cd ../PROG`
+  `$ cd ~/RAW2GRID/PROG`
   
   `$ python3 ./raw2grid.py`
   
-5. Si tot va bé, trobareu els arxius netCDF4 amb el producte de sortida a la carpeta *./RAW2GRID/netCDF4/*.
+5. Si tot va bé, trobareu els arxius netCDF4 amb el producte de sortida a la carpeta *~/RAW2GRID/netCDF4/*.
